@@ -1,0 +1,14 @@
+{
+  "version": "independent",
+  "packages": [
+    "packages/*"
+  ],
+  "useWorkspaces": true,
+  "npmClient": "yarn",
+  "command": {
+    "version": {
+      "allowBranch": ["main"],
+      "message": "chore(release): %s [skip ci]"
+    }
+  }
+}

@@ -52,6 +52,9 @@ jobs:
         with:
           node-version: '14'
           check-latest: true
+      - run: |
+          git config -g user.name "github-actions"
+          git config -g user.email "41898282+github-actions[bot]@users.noreply.github.com"
       - run: yarn release
         env:
           GH_TOKEN: ${{ secrets.GH_TOKEN }}

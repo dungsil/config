@@ -12,7 +12,7 @@
     "build": "lerna run build",
     "test": "lerna run test",
     "prepublish": "lerna run build",
-    "release": "lerna publish --conventional-commits --create-release github --sign-git-commit --sign-git-tag"
+    "release": "lerna publish --conventional-commits --create-release github --sign-git-commit --sign-git-tag --yes"
   },
   "devDependencies": {
     "@babel/core": "7.15.0",

@@ -1,0 +1,30 @@
+{
+  "name": "@dungsil/renovate-config",
+  "version": "1.0.0",
+  "license": "MIT",
+  "renovate-config": {
+    "default": {
+      "extends": ["config:base", ":semanticCommits"],
+      "addLabels": ["dependencies"],
+      "packageRules": [
+        {
+          "matchUpdateTypes": ["minor", "patch"],
+          "matchCurrentVersion": "!/^0/",
+          "automerge": true
+        },
+        {
+          "matchDepTypes": ["devDependencies"],
+          "matchPackagePatterns": ["lint", "prettier", "detekt"],
+          "automerge": true
+        }
+      ],
+      "lockFileMaintenance": {
+        "enabled": true,
+        "automerge": true
+      }
+    }
+  },
+  "publishConfig": {
+    "access": "public"
+  }
+}

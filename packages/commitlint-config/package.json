@@ -1,0 +1,21 @@
+{
+  "name": "commitlint-config-dungsil",
+  "version": "1.0.0",
+  "main": "lib/index.js",
+  "license": "MIT",
+  "scripts": {
+    "build": "tsc"
+  },
+  "dependencies": {
+    "@commitlint/config-conventional": "11.0.0 || 12.1.4 || 13.1.0"
+  },
+  "devDependencies": {
+    "@commitlint/types": "13.1.0"
+  },
+  "peerDependencies": {
+    "@commitlint/cli": "11.0.0 || 12.1.4 || 13.1.0"
+  },
+  "publishConfig": {
+    "access": "public"
+  }
+}

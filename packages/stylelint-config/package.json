@@ -1,0 +1,21 @@
+{
+  "name": "@dungsil/stylelint-config",
+  "version": "1.0.0",
+  "license": "MIT",
+  "main": "lib/index.js",
+  "scripts": {
+    "build": "tsc"
+  },
+  "dependencies": {
+    "stylelint-config-recommended-scss": "4.3.0",
+    "stylelint-config-prettier": "8.0.2"
+  },
+  "peerDependencies": {
+    "stylelint": ">=11.0.0",
+    "stylelint-scss": "^3.20.1",
+    "prettier": "^2.3.2"
+  },
+  "publishConfig": {
+    "access": "public"
+  }
+}

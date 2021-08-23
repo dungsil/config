@@ -1,0 +1,36 @@
+{
+  "name": "dungsil-config",
+  "version": "1.0.0",
+  "license": "MIT",
+  "private": true,
+  "workspaces": [
+    "packages/*"
+  ],
+  "scripts": {
+    "prepare": "husky install",
+    "lint": "eslint --ext .ts --ignore-path .gitignore .",
+    "build": "lerna run build",
+    "test": "lerna run test",
+    "prepublish": "lerna run build",
+    "release": "lerna publish --conventional-commits --create-release github --sign-git-commit --sign-git-tag"
+  },
+  "devDependencies": {
+    "@babel/core": "7.15.0",
+    "@commitlint/cli": "13.1.0",
+    "commitlint-config-dungsil": "*",
+    "@dungsil/eslint-config": "*",
+    "@jest/types": "27.0.6",
+    "@types/jest": "27.0.1",
+    "@types/node": "16.7.1",
+    "eslint": "7.32.0",
+    "husky": "7.0.1",
+    "jest": "27.0.6",
+    "lerna": "4.0.0",
+    "lint-staged": "11.1.2",
+    "ts-jest": "27.0.5",
+    "ts-node": "10.2.1",
+    "typescript": "4.3.5",
+    "prettier": "2.3.2",
+    "@dungsil/prettier-config": "*"
+  }
+}

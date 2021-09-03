@@ -3,6 +3,18 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## 1.0.3 (2021-09-03)
+
+
+### Bug Fixes
+
+* **deps:** update dependency eslint-plugin-import to v2.24.2 ([9d8bf64](https://github.com/dungsil/config/commit/9d8bf6427a8e9e24e8c0117614c5ede4a959d8b2))
+* **deps:** update typescript-eslint monorepo to v4.30.0 ([6e67d1f](https://github.com/dungsil/config/commit/6e67d1fba85f6ae7e333d1f8de6f68960c34179b))
+
+
+
+
+
 ## [1.0.2](https://github.com/dungsil/config/compare/@dungsil/eslint-config@1.0.1...@dungsil/eslint-config@1.0.2) (2021-08-31)
 
 

@@ -15,7 +15,7 @@
     "release": "lerna publish --conventional-commits --create-release github --yes"
   },
   "devDependencies": {
-    "@babel/core": "7.15.4",
+    "@babel/core": "7.15.5",
     "@commitlint/cli": "13.1.0",
     "@dungsil/eslint-config": "*",
     "@dungsil/prettier-config": "*",

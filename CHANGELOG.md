@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [1.1.1](https://github.com/dungsil/config/compare/v1.1.0...v1.1.1) (2021-09-06)
+
+
+### Bug Fixes
+
+* **eslint-config:** 설정에서 standard 플러그인 제거 ([51555bd](https://github.com/dungsil/config/commit/51555bdd0bf6f38b76058fa56b9ba35cc06ccd55))
+
+
+
+
+
 # [1.1.0](https://github.com/dungsil/config/compare/v1.0.3...v1.1.0) (2021-09-06)
 
 

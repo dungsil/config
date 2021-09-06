@@ -6,6 +6,7 @@
     "default": {
       "extends": [
         "config:base",
+        "schedule:earlyMondays",
         ":semanticCommitTypeAll(chore)"
       ],
       "dependencyDashboard": false,

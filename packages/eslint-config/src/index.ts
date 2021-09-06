@@ -22,7 +22,7 @@ module.exports = {
     sourceType: 'module',
     parser: '@typescript-eslint/parser',
   },
-  plugins: ['standard', 'jest', 'unicorn', '@typescript-eslint'],
+  plugins: ['jest', 'unicorn', '@typescript-eslint'],
   settings: {
     'import/resolver': {
       node: { extensions: ['.js', '.mjs', '.ts', '.tsx'] },

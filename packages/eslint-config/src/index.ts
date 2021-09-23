@@ -9,6 +9,7 @@ module.exports = {
     'eslint:recommended',
     'standard',
 
+    'plugin:node/recommended-module'
     'plugin:import/errors',
     'plugin:import/warnings',
 
@@ -22,7 +23,7 @@ module.exports = {
     sourceType: 'module',
     parser: '@typescript-eslint/parser',
   },
-  plugins: ['jest', 'unicorn', '@typescript-eslint'],
+  plugins: ['node', 'jest', 'unicorn', '@typescript-eslint'],
   settings: {
     'import/resolver': {
       node: { extensions: ['.js', '.mjs', '.ts', '.tsx'] },

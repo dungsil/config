@@ -9,7 +9,7 @@ module.exports = {
     'eslint:recommended',
     'standard',
 
-    'plugin:node/recommended-module'
+    'plugin:node/recommended-module',
     'plugin:import/errors',
     'plugin:import/warnings',
 

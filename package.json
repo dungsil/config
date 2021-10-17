@@ -21,7 +21,6 @@
     "@dungsil/eslint-config": "*",
     "@dungsil/prettier-config": "*",
     "@jest/types": "27.2.5",
-    "@types/jest": "27.0.1",
     "@types/node": "16.7.1",
     "commitlint-config-dungsil": "*",
     "eslint": "7.32.0",

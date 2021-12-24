@@ -7,14 +7,14 @@
     "build": "tsc"
   },
   "dependencies": {
-    "@commitlint/config-conventional": "11.0.0 || 12.1.4 || 13.1.0 || 13.2"
+    "@commitlint/config-conventional": ">=11.0"
   },
   "devDependencies": {
     "@commitlint/types": "13.2.0",
     "@types/node": "16.7.1"
   },
   "peerDependencies": {
-    "@commitlint/cli": "11.0.0 || 12.1.4 || 13.1.0 || 13.2"
+    "@commitlint/cli": ">=11.0.0"
   },
   "publishConfig": {
     "access": "public"
